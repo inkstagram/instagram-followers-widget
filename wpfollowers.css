@@ -1,0 +1,127 @@
+.wpfollowers-header {
+	margin: 0px 15px;
+}
+
+.wpfollowers-wrapper {
+	position: relative;
+	border: 1px solid #DFDFDF;
+	border-radius: 3px;	 
+	overflow: hidden;
+	height: 250px;
+	padding-top: 15px;
+	margin: 0px 15px;
+	z-index: 2;
+}
+
+.wpfollowers-wrapper .wpfollowers-line {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	z-index: 1;
+	left: 47px;
+	border-left: 2px solid #CCC;
+}
+
+.wpfollowers-wrapper .wpfollowers-entry {
+	position: relative;
+	z-index: 2;
+	margin: 0px 0px 15px 0px;	
+}
+
+.wpfollowers-wrapper .wpfollowers-avatar {
+	width: 94px;
+}
+
+.wpfollowers-wrapper .wpfollowers-entry .wpfollowers-avatar img {
+	margin-left: 15px;
+	float: left;
+	border-radius: 100%;
+	height: 64px;
+	width: 64px;
+	border: 1px solid #999;
+}
+
+.wpfollowers-wrapper .wpfollowers-entry .wpfollowers-message .wpfollowers-inner {
+	font-size: 11px;
+	padding: 10px;
+	border: 1px solid #DFDFDF;	
+	background: #F1F1F1;
+	color: #333;	
+	margin-right: 15px;
+	border-radius: 3px;
+	display: inline-block;	
+}
+
+.wpfollowers-wrapper .wpfollowers-entry .wpfollowers-message span {
+	color: #000;
+	font-weight: bold;
+}
+
+.wpfollowers-wrapper td, .wpfollowers-wrapper tr, .wpfollowers-wrapper table {
+	padding: 0px;
+	margin: 0px;
+	border: 0px none;
+	vertical-align: middle;
+}
+
+.wpfollowers_social {  
+  border: 1px solid #DDD;
+  border-bottom: 0px none;
+  border-radius: 3px 3px 0px 0px;
+  padding: 5px;
+  line-height: 16px;
+  margin-right: 15px;
+  position: absolute;
+  right: 0px;
+  margin-top: 4px;
+  z-index: 1;
+}
+
+.wpfollowers_social a {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+
+.wpfollowers_powered {
+   text-align: right;
+   font-size: 11px;
+   padding-top: 5px;
+   padding-right: 15px;
+}
+
+.wpfollowers_social .wpfollowers_facebook {
+  background: url('img/facebook-large.png') center center;
+  background-size: contain;
+}
+
+.wpfollowers_social .wpfollowers_twitter {
+  background: url('img/twitter-large.png') center center;
+  background-size: contain;
+}
+
+.wpfollowers_error {
+	margin: 0px 15px;
+	text-align: center;
+	background: #fcf8e3; /* Old browsers */
+	background: -moz-linear-gradient(top,  #fcf8e3 0%, #f8efc0 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcf8e3), color-stop(100%,#f8efc0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #fcf8e3 0%,#f8efc0 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #fcf8e3 0%,#f8efc0 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #fcf8e3 0%,#f8efc0 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #fcf8e3 0%,#f8efc0 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcf8e3', endColorstr='#f8efc0',GradientType=0 ); /* IE6-9 */
+	color: #000;
+	border: 1px solid #f5e79e;
+	border-radius: 3px;
+	padding: 10px;
+}
+
+.wpfollowers_error b {
+	color: #000;
+	font-size: 110%;
+}
+
+.wpfollowers_error_description {
+	margin-bottom: 0px !important;
+}
